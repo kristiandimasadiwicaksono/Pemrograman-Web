@@ -247,3 +247,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nu
 </body>
 </html>
 ```
+#
+### Navigation Bar
+ Navigation Bar (Navbar) dapat memudahkan pengguna untuk menuju kesuatu link ataupun halaman lainnya. Kita dapat membuat navigation bar pada style sheet. Navigationbar sebelumnya membutuhkan standard html sebagai dasar.
