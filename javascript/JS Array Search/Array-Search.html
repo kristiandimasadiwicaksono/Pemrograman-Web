@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<body>JavaScript Array indexOf()
+<h1>JavaScript Arrays</h1>
+<h2>The indexOf() Method</h2>
+
+<p id="demo"></p>
+
+<script>
+const fruits = ["Apple", "Orange", "Apple", "Mango"];
+let position = fruits.indexOf("Apple") + 1;
+
+document.getElementById("demo").innerHTML = "Apple is found in position " + position;
+</script><hr>
+
+JavaScript Array lastIndexOf()
+<h1>JavaScript Arrays</h1>
+<h2>The lastIndexOf() Method</h2>
+
+<p id="demo1"></p>
+
+<script>
+const fruits2 = ["Apple", "Orange", "Apple", "Mango"];
+let position2 = fruits2.lastIndexOf("Apple") + 1;
+
+document.getElementById("demo1").innerHTML = "Apple is found in position " + position2;
+</script><hr>
+
+JavaScript Array includes()
+<h1>JavaScript Arrays</h1>
+<h2>The includes() Method</h2>
+
+<p>Check if the fruit array contains "Mango":</p>
+
+<p id="demo2"></p>
+
+<p><strong>Note:</strong> The includes method is not supported in Edge 13 (and earlier versions).</p>
+
+<script>
+const fruits3 = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo2").innerHTML = fruits3.includes("Mango");
+</script><hr>
+JavaScript Array find()
+<h1>JavaScript Arrays</h1>
+<h2>The find() Method</h2>
+
+<p id="demo3"></p>
+
+<script>
+const numbers = [4, 9, 16, 25, 29];
+let first = numbers.find(myFunction);
+
+document.getElementById("demo3").innerHTML = "First number over 18 is " + first;
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+</script><hr>
+
+JavaScript Array findIndex()
+<h1>JavaScript Arrays</h1>
+<h2>The findIndex() Method</h2>
+
+<p id="demo4"></p>
+
+<script>
+const numbers2 = [4, 9, 16, 25, 29];
+
+document.getElementById("demo4").innerHTML = "First number over 18 has index " + numbers2.findIndex(myFunction);
+
+function myFunction(value2, index1, array1) {
+  return value2 > 18;
+}
+</script><hr>
+
+JavaScript Array findLast() Method
+
+<h1>JavaScript Arrays</h1>
+<h2>The findLast() Method</h2>
+
+<p id="demo5"></p>
+
+<script>
+const temp = [27, 28, 30, 40, 42, 35, 30];
+let high = temp.findLast(x => x > 40);
+
+document.getElementById("demo5").innerHTML = "The last temperature over 40 was " + high;
+</script><hr>
+
+JavaScript Array findLastIndex() Method
+
+<h1>JavaScript Arrays</h1>
+<h2>The findLastIndex() Method</h2>
+
+<p id="demo6"></p>
+
+<script>
+const temp2 = [27, 28, 30, 40, 42, 35, 30];
+let pos = temp2.findLastIndex(x => x > 40);
+
+document.getElementById("demo6").innerHTML = "The last temperature over 40 was in position " + pos;
+</script>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
