@@ -6,4 +6,5 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
   - CSS
   - Javascript
 
-### 
+## HTML
+
