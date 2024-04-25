@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table, th, td {
+            border: 1px solid;
+            }
+            table {
+            width: 40%;
+            
+            }
+            tr:hover{
+                background-color: cyan;
+                background-color: yellow
+            }
+            th{
+                color: chocolate;
+                text-align: center;
+            }
+            .icon{
+                width: 20px;
+                height: auto;
+            }
+            tr:nth-child(odd) {
+                text-align: left;
+            }
+            tr:nth-child(even) {
+                text-align: right;
+            }
+            td:nth-child(2) {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h2>Challenge 1 - CSS</h2>
+
+        <table>
+            <tr>
+                <th>Materi</th>
+                <th>Sub materi</th>
+                <th>Icon</th>
+            </tr>
+            <tr>
+                <td>Materi 1</td>
+                <td>HTML</td>
+                <td><img class="icon" src="https://logodownload.org/wp-content/uploads/2016/10/html5-logo-8.png" alt="html"></td>
+            </tr>
+            <tr>
+                <td>Materi 2</td>
+                <td>CSS</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Materi 3</td>
+                <td>Javascript</td>
+                <td></td>
+            </tr>
+        </table>
+
+        <h3>Keterangan:</h3>
+
+        <ol type="1">
+            <li>Buatlah selector berjenis class dengan nama <b>.icon</b> untuk meresize gambar pada kolom</li>
+            <li>Warna background adalah cyan</li>
+            <li>warna header tabel adalah chocolate</li>
+            <li>Tabel header rata tengah</li>
+            <li>Baris ganjil rata kiri, baris genap rata kanan kecuali pada kolom icon, gunakan fitur nth-child</li>
+          </ol>  
+
+    </body>
+</html>

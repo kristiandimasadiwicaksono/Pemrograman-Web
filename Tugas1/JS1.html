@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    text-align: center;
+}
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 30%;
+}    
+th{
+    background-color: lightblue;
+}
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+th, td {
+  padding: 15px;
+}
+</style>
+</head>
+<body>
+
+<h2>Javascript Arithmetic</h2>
+<div>
+<table>
+  <tr>
+    <th>Variabel</th>
+    <th>Nilai</th>
+  </tr>
+  <tr>
+    <td>a</td>
+    <td id="nilai1">5</td>
+  </tr>
+  <tr>
+    <td>b</td>
+    <td id="nilai2">2</td>
+  </tr>
+  <tr>
+    <td>c</td>
+    <td id="nilai3"">1</td>
+  </tr>
+  <tr>
+    <td>Hasil</td>
+    <td id="hasil" onmouseover="tampil()" onmouseleave="hilang()"></td>
+  </tr>
+</table>
+</div>
+<script>
+  function hitung(a,b,c){
+      return a+b-c;
+    }
+    
+ function tampil(){
+    let a = parseInt(document.getElementById("nilai1").innerHTML);
+     let b = parseInt(document.getElementById("nilai2").innerHTML);
+     let c = parseInt(document.getElementById("nilai3").innerHTML);
+     let hasil = hitung(a,b,c)
+     document.getElementById("hasil").innerHTML = hasil;
+ }
+function hilang(){
+  document.getElementById("hasil").innerHTML = "";
+}
+
+</script>
+</body>
+</html>

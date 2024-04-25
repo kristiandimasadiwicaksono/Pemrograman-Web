@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.halaman {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+table {
+  border-collapse: collapse;
+  width: 30%;
+}    
+th{
+    background-color: lightblue;
+}
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+th, td {
+  padding: 15px;
+}
+tr:hover {
+    background-color: gray;
+  }
+</style>
+</head>
+<body>
+
+<h2>Javascript Arithmetic</h2>
+<div class="halaman">
+<table>
+  <tr>
+    <th>Variabel</th>
+    <th>Nilai</th>
+    <th rowspan="5"><img id="gambar" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/167_Html5_logo_logos-512.png" style="width: 120px; ";></th>
+  </tr>
+  <tr>
+    <td>a</td>
+    <td id="nilai1">5</td>
+  </tr>
+  <tr>
+    <td>b</td>
+    <td id="nilai2">2</td>
+  </tr>
+  <tr>
+    <td>c</td>
+    <td id="nilai3"">1</td>
+  </tr>
+  <tr>
+    <td>Hasil</td>
+    <td id="hasil" onmouseover="tampil()" onmouseleave="hilang()""></td>
+  </tr>
+</table>
+</div>
+<button onclick="ubahnilai()">Ubah Nilai</button>
+<script>
+function hitung(a,b,c){
+    return a+b-c;
+}
+
+function tampil(){
+    a = parseInt(document.getElementById("nilai1").innerHTML);
+    b = parseInt(document.getElementById("nilai2").innerHTML);
+    c = parseInt(document.getElementById("nilai3").innerHTML);
+    hasil = hitung(a,b,c)
+    document.getElementById("hasil").innerHTML=hasil;
+}
+function hilang(){
+    document.getElementById("hasil").innerHTML = "";
+}
+function ubahnilai(){
+      ubah1 = prompt("masukan nilai 'A'");
+      document.getElementById("nilai1").innerHTML = ubah1
+      ubah2 = prompt("masukan nilai 'B'");
+      document.getElementById("nilai2").innerHTML = ubah2
+      ubah3 = prompt("masukan nilai 'C'");
+      document.getElementById("nilai3").innerHTML = ubah3
+
+      document.getElementById("gambar")
+      .src= "https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-0.png";
+}
+
+</script>
+</body>
+</html>
