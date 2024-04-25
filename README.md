@@ -8,10 +8,10 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 
 ## HTML
 
-## Heading
+### Heading
   Heading didefinisikan dari tag `<h1>` hingga tag `<h6>`. tag `<h1>` merupakan tag yang biasanya digunakan sebagai judul. semakin tinggi angka yang dipilih untuk heading, maka hasil tulisannya akan semakin kecil.
 
-```
+```HTML
 <!DOCTYPE html>
 <html>
 <body>
