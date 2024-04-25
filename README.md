@@ -217,3 +217,33 @@ p.mix {border-style: dotted dashed solid double;}
 </body>
 </html>
 ```
+#
+### Float
+  property `float` digunakan untuk mengatur posisi dan untuk memformat content contohnya gambar. Property float hanya dapat menggunakan 1 perintah. perintah yang dapat digunakan pada `float` adalah <br>
+  -`left` yang berarti content tersebut mengambang di bagian kiri <br> 
+  -`right` yang berarti content tersebut mengambang di bagian kanan <br>
+  -`none`<br>
+  -`inherit`
+  
+  ```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  float: right;
+}
+</style>
+</head>
+<body>
+
+<h2>Float Right</h2>
+
+<p>In this example, the image will float to the right in the paragraph, and the text in the paragraph will wrap around the image.</p>
+
+<p><img src="https://th.bing.com/th/id/OIP.9sDxleQnUH7DHq4h2m-qOwHaNK?w=115&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p>
+
+</body>
+</html>
+```
