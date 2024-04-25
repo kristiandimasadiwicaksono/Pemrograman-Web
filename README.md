@@ -165,3 +165,16 @@ p {
 </body>
 </html>
 ```
+#
+### Border
+  Dengan CSS Border Properties kita dapat mengatur style, width, dan warna dari elemen border itu sendiri. border style yang dapat kita gunakan seperti:
+  -`dotted`
+  -`dashed`
+  -`solid`
+  -`double`
+  -`groove`
+  -`ridge`
+  -`inset`
+  -`outset`
+  -`none`
+  -`hidden`
