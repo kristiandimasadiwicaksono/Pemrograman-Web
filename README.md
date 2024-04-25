@@ -29,4 +29,4 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 #
 
 ### Classes
-  Atribut `class` sering digunakan untuk menunjuk ke nama `class` dalam style sheet. Ini juga dapat digunakan oleh JavaScript untuk mengakses dan mengubah elemen dengan nama `class` tertentu.
+  Atribut `class` pada HTML digunakan untuk menentukan `class` untuk sebuah elemen HTML. Beberapa elemen HTML dapat berbagi `class` yang sama. Atribut `class` sering digunakan untuk menunjuk ke nama `class` dalam style sheet. Ini juga dapat digunakan oleh JavaScript untuk mengakses dan mengubah elemen dengan nama `class` tertentu.
