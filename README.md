@@ -8,7 +8,7 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 
 ## HTML
 
-### -Heading
+### Heading
   Heading didefinisikan dari tag `<h1>` hingga tag `<h6>`. tag `<h1>` merupakan tag yang biasanya digunakan sebagai judul. semakin tinggi angka yang dipilih untuk heading, maka hasil tulisannya akan semakin kecil.
 
 ```HTML
@@ -28,7 +28,7 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 ```
 #
 
-### -Classes
+### Classes
   Atribut `class` pada HTML digunakan untuk menentukan `class` untuk sebuah elemen HTML. Beberapa elemen HTML dapat berbagi `class` yang sama. Atribut `class` sering digunakan untuk menunjuk ke nama `class` dalam style sheet. Ini juga dapat digunakan oleh JavaScript untuk mengakses dan mengubah elemen dengan nama `class` tertentu.
 
 ```HTML
@@ -67,7 +67,7 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 ```
 #
 
-### -Colors
+### Colors
   Warna HTML ditentukan dengan nama warna yang telah ditetapkan, atau dengan nilai RGB, HEX, HSL, RGBA, atau HSLA. Warna yang dapat dirubah seperti semua huruf/kalimat maupun background.
 
 ```HTML
@@ -115,7 +115,7 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 </html>
 ```
 #
-## -Id
+## Id
   Atribut `id` HTML digunakan untuk menentukan id unik untuk sebuah elemen HTML. Kita tidak dapat memiliki lebih dari satu elemen dengan id yang sama di dalam dokumen HTML.
   ```HTML
 <!DOCTYPE html>
