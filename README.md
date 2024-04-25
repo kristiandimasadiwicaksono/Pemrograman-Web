@@ -167,8 +167,8 @@ p {
 ```
 #
 ### Border
-  Dengan CSS Border Properties kita dapat mengatur style, width, dan warna dari elemen border itu sendiri. border style yang dapat kita gunakan seperti:
-  -`dotted`
+  Dengan CSS Border Properties kita dapat mengatur style, width, dan warna dari elemen border itu sendiri. border style yang dapat kita gunakan seperti:<br>
+  `dotted`
   -`dashed`
   -`solid`
   -`double`
