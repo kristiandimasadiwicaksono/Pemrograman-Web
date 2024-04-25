@@ -143,3 +143,25 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 #
 ## CSS
 ### Comments
+Comment yang diketik pada saat program dibuat tidak akan ditampikan pada hasil sebuah program.
+
+```CSS
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* This is a single-line comment */
+p {
+  color: red;
+} 
+</style>
+</head>
+<body>
+
+<p>Hello World!</p>
+<p>This paragraph is styled with CSS.</p>
+<p>CSS comments are not shown in the output.</p>
+
+</body>
+</html>
+```
