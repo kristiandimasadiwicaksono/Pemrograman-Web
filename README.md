@@ -114,3 +114,6 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 </body>
 </html>
 ```
+
+### -Id
+  Atribut `id` HTML digunakan untuk menentukan id unik untuk sebuah elemen HTML. Kita tidak dapat memiliki lebih dari satu elemen dengan id yang sama di dalam dokumen HTML.
