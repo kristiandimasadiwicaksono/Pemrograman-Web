@@ -249,4 +249,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nu
 ```
 #
 ### Navigation Bar
- Navigation Bar (Navbar) dapat memudahkan pengguna untuk menuju kesuatu link ataupun halaman lainnya. Kita dapat membuat navigation bar pada style sheet. Navigationbar sebelumnya membutuhkan standard html sebagai dasar.
+ Navigation Bar (Navbar) merupakan daftar link. Kita dapat memperbagus tampilan navigation bar pada style sheet. Navigation bar sebelumnya membutuhkan standard html sebagai dasar.
