@@ -7,4 +7,4 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
   - Javascript
 
 ## HTML
-  Heading didefinisikan dari tag `<h1>`
+  Heading didefinisikan dari tag `<h1>` hingga tag `<h6>`.
