@@ -26,3 +26,7 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 </body>
 </html>
 ```
+#
+
+### Classes
+  Atribut `class` sering digunakan untuk menunjuk ke nama `class` dalam style sheet. Ini juga dapat digunakan oleh JavaScript untuk mengakses dan memanipulasi elemen dengan nama kelas tertentu.
