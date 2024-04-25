@@ -143,9 +143,9 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 #
 ## CSS
 ### Comments
-Comment yang diketik pada saat program dibuat tidak akan ditampikan pada hasil sebuah program.
+Comment yang diketik pada saat program dibuat tidak akan ditampikan pada hasil sebuah program. Comment sering kali digunakan untuk menjelaskan sebuah kode sehingga dapat memudahkan ketika ingin mengedit kode tersebut.
 
-```CSS
+```HTML
 <!DOCTYPE html>
 <html>
 <head>
