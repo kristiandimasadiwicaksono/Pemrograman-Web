@@ -1,6 +1,9 @@
 # Praktikum Pemrograman Web 1
 
-## Materi yang dipelajari
+## Materi
+Pada Praktikum ini dapat dipelajari berbagai materi seperti:
   - HTML
   - CSS
   - Javascript
+
+### 
