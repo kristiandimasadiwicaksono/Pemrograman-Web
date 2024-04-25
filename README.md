@@ -168,13 +168,13 @@ p {
 #
 ### Border
   Dengan CSS Border Properties kita dapat mengatur style, width, dan warna dari elemen border itu sendiri. border style yang dapat kita gunakan seperti:<br>
-  `dotted`
-  -`dashed`
-  -`solid`
-  -`double`
-  -`groove`
-  -`ridge`
-  -`inset`
-  -`outset`
-  -`none`
-  -`hidden`
+  `dotted`<br>
+  `dashed`<br>
+  `solid`<br>
+  `double`<br>
+  `groove`<br>
+  `ridge`<br>
+  `inset`<br>
+  `outset`<br>
+  `none`<br>
+  `hidden`<br>
