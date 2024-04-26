@@ -144,7 +144,7 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 </html>
 ```
 ![App Screenshot](https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/Id.png)
-
+#
 ## CSS
 ### Comments
 Comment yang diketik pada saat program dibuat tidak akan ditampikan pada hasil sebuah program. Comment sering kali digunakan untuk menjelaskan sebuah kode sehingga dapat memudahkan ketika ingin mengedit kode tersebut. Untuk membuat comment kita dapat menggunakan `/* */` pada bagian style
