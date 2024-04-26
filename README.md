@@ -116,7 +116,7 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 </body>
 </html>
 ```
-![App Screenshot]
+![App Screenshot](https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/Colors.png)
 #
 ## Id
   Atribut `id` HTML digunakan untuk menentukan id unik untuk sebuah elemen HTML. Kita tidak dapat memiliki lebih dari satu elemen dengan id yang sama di dalam dokumen HTML.
@@ -143,7 +143,7 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 </body>
 </html>
 ```
-![App Screenshot]
+![App Screenshot](https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/Id.png)
 #
 ## CSS
 ### Comments
@@ -169,7 +169,7 @@ p {
 </body>
 </html>
 ```
-![App Screenshot]
+![App Screenshot](https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/Comment.png)
 #
 ### Border
   Dengan CSS Border Properties kita dapat mengatur style, width, dan warna dari elemen border itu sendiri. border style yang dapat kita gunakan seperti:<br>
@@ -222,7 +222,7 @@ p.mix {border-style: dotted dashed solid double;}
 </body>
 </html>
 ```
-![App Screenshot]
+![App Screenshot](https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/Border.png)
 #
 ### Float
   property `float` digunakan untuk mengatur posisi dan untuk memformat content contohnya gambar. Property float hanya dapat menggunakan 1 perintah. perintah yang dapat digunakan pada `float` adalah <br>
@@ -253,7 +253,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nu
 </body>
 </html>
 ```
-![App Screenshot]
+![App Screenshot](https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/float.png)
 #
 ### Navigation Bar
  Navigation Bar (Navbar) merupakan daftar link. Kita dapat memperbagus tampilan navigation bar pada style sheet. Navigation bar sebelumnya membutuhkan standard html sebagai dasar.
@@ -343,7 +343,7 @@ div.content {
 </body>
 </html>
 ```
-![App Screenshot]
+![App Screenshot](https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/Navbar.png)
 #
 ### Form
   Form biasanya digunakan untuk mengisi data kemudian disimpan pada komputer. Tampilan form dapat kita perbagus menggunakan CSS contohnya seperti program dibawah ini.
@@ -471,7 +471,7 @@ input[type=submit]:hover {
 </body>
 </html>
 ```
-![App Screenshot]
+![App Screenshot](https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/forms.png)
 #
 ### Opacity
   property `opacity` digunakan untuk mengatur tingkat transparansi sebuah objek
@@ -512,7 +512,7 @@ div.third {
 </body>
 </html>
 ```
-![App Screenshot]
+![App Screenshot](https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/Opacity.png)
 #
 ## Javascript
 
@@ -546,7 +546,7 @@ function myFunction() {
 </body>
 </html>
 ```
-![App Screenshot]
+![App Screenshot](https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/Prompt.png)
 #
 ### Date
   Di dalam javascript kita juga dapat membuat waktu secara realtime menggunakan object date
@@ -570,7 +570,7 @@ document.getElementById("demo").innerHTML = d;
 </body>
 </html>
 ```
-![App Screenshot]
+![App Screenshot]https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/Waktu.png
 #
 ### Break
   Break digunakan pada javascript untuk menghentikan perintah baik dari perintah loop maupun switch statement jika sebuah kondisi sudah terpenuhi.
@@ -598,7 +598,7 @@ document.getElementById("demo").innerHTML = text;
 </body>
 </html>
 ```
-![App Screenshot]
+![App Screenshot](https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/Break.png)
 #
 ### Function
   Function adalah perintah yang dapat kita gunakan kembali untuk menyelesaikan tugas tertentui. didalam function terdapat beberapa perintah yang dapat digabungkan.
@@ -625,3 +625,4 @@ document.getElementById("demo").innerHTML = result;
 </body>
 </html>
 ```
+![App Screenshot](https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/Functions.png)
