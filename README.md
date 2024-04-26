@@ -570,7 +570,7 @@ document.getElementById("demo").innerHTML = d;
 </body>
 </html>
 ```
-![App Screenshot]https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/Waktu.png
+![App Screenshot](https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/Waktu.png)
 #
 ### Break
   Break digunakan pada javascript untuk menghentikan perintah baik dari perintah loop maupun switch statement jika sebuah kondisi sudah terpenuhi.
