@@ -538,3 +538,6 @@ function myFunction() {
 </body>
 </html>
 ```
+#
+### Date
+  Di dalam javascript kita juga dapat membuat waktu secara realtime
