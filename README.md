@@ -117,7 +117,7 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 </html>
 ```
 ![App Screenshot](https://github.com/kristiandimasadiwicaksono/Pemrograman-Web/blob/main/Gambar/Colors.png)
-#
+
 ## Id
   Atribut `id` HTML digunakan untuk menentukan id unik untuk sebuah elemen HTML. Kita tidak dapat memiliki lebih dari satu elemen dengan id yang sama di dalam dokumen HTML.
   ```HTML
