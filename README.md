@@ -116,6 +116,7 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 </body>
 </html>
 ```
+![App Screenshot]
 #
 ## Id
   Atribut `id` HTML digunakan untuk menentukan id unik untuk sebuah elemen HTML. Kita tidak dapat memiliki lebih dari satu elemen dengan id yang sama di dalam dokumen HTML.
@@ -142,6 +143,7 @@ Pada Praktikum ini dapat dipelajari berbagai materi seperti:
 </body>
 </html>
 ```
+![App Screenshot]
 #
 ## CSS
 ### Comments
@@ -167,6 +169,7 @@ p {
 </body>
 </html>
 ```
+![App Screenshot]
 #
 ### Border
   Dengan CSS Border Properties kita dapat mengatur style, width, dan warna dari elemen border itu sendiri. border style yang dapat kita gunakan seperti:<br>
@@ -219,6 +222,7 @@ p.mix {border-style: dotted dashed solid double;}
 </body>
 </html>
 ```
+![App Screenshot]
 #
 ### Float
   property `float` digunakan untuk mengatur posisi dan untuk memformat content contohnya gambar. Property float hanya dapat menggunakan 1 perintah. perintah yang dapat digunakan pada `float` adalah <br>
@@ -249,6 +253,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nu
 </body>
 </html>
 ```
+![App Screenshot]
 #
 ### Navigation Bar
  Navigation Bar (Navbar) merupakan daftar link. Kita dapat memperbagus tampilan navigation bar pada style sheet. Navigation bar sebelumnya membutuhkan standard html sebagai dasar.
@@ -338,7 +343,7 @@ div.content {
 </body>
 </html>
 ```
-
+![App Screenshot]
 #
 ### Form
   Form biasanya digunakan untuk mengisi data kemudian disimpan pada komputer. Tampilan form dapat kita perbagus menggunakan CSS contohnya seperti program dibawah ini.
@@ -466,7 +471,7 @@ input[type=submit]:hover {
 </body>
 </html>
 ```
-
+![App Screenshot]
 #
 ### Opacity
   property `opacity` digunakan untuk mengatur tingkat transparansi sebuah objek
@@ -507,6 +512,7 @@ div.third {
 </body>
 </html>
 ```
+![App Screenshot]
 #
 ## Javascript
 
@@ -540,6 +546,7 @@ function myFunction() {
 </body>
 </html>
 ```
+![App Screenshot]
 #
 ### Date
   Di dalam javascript kita juga dapat membuat waktu secara realtime menggunakan object date
@@ -563,7 +570,7 @@ document.getElementById("demo").innerHTML = d;
 </body>
 </html>
 ```
-
+![App Screenshot]
 #
 ### Break
   Break digunakan pada javascript untuk menghentikan perintah baik dari perintah loop maupun switch statement jika sebuah kondisi sudah terpenuhi.
@@ -586,6 +593,33 @@ for (let i = 0; i < 10; i++) {
 }
 
 document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+```
+![App Screenshot]
+#
+### Function
+  Function adalah perintah yang dapat kita gunakan kembali untuk menyelesaikan tugas tertentui. didalam function terdapat beberapa perintah yang dapat digabungkan.
+
+  ```HTML
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Functions</h1>
+
+<p>Call a function which performs a calculation and returns the result:</p>
+
+<p id="demo"></p>
+
+<script>
+function myFunction(p1, p2) {
+  return p1 * p2;
+}
+
+let result = myFunction(4, 3);
+document.getElementById("demo").innerHTML = result;
 </script>
 
 </body>
