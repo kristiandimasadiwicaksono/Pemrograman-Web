@@ -464,3 +464,7 @@ input[type=submit]:hover {
 </body>
 </html>
 ```
+
+#
+### Opcity
+  property `opacity` digunakan untuk mengatur tingkat transparansi sebuah gambar
