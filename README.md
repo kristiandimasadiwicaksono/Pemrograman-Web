@@ -466,7 +466,7 @@ input[type=submit]:hover {
 ```
 
 #
-### Opcity
+### Opacity
   property `opacity` digunakan untuk mengatur tingkat transparansi sebuah objek
   
 ```HTML
@@ -501,6 +501,39 @@ div.third {
 <div class="second"><p>opacity 0.3</p></div>
 <div class="third"><p>opacity 0.6</p></div>
 <div><p>opacity 1 (default)</p></div>
+
+</body>
+</html>
+```
+#
+## Javascript
+
+### Prompt
+  Prompt pada javascript akan memunculkan dialog box untuk diinput oleh user. metode prompt akan mengembalikan nilai yang diinputkan oleh user ketika user menekan tombol "OK"
+
+  ```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Prompt</h2>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let text;
+  let person = prompt("Please enter your name:", "Harry Potter");
+  if (person == null || person == "") {
+    text = "User cancelled the prompt.";
+  } else {
+    text = "Hello " + person + "! How are you today?";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
 
 </body>
 </html>
