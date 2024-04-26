@@ -542,4 +542,52 @@ function myFunction() {
 ```
 #
 ### Date
-  Di dalam javascript kita juga dapat membuat waktu secara realtime
+  Di dalam javascript kita juga dapat membuat waktu secara realtime menggunakan object date
+
+  ```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Dates</h1>
+<h2>Using new Date()</h2>
+<p>new Date() without arguments, creates a date object with the current date and time:</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+
+</body>
+</html>
+```
+
+#
+### Break
+  Break digunakan pada javascript untuk menghentikan perintah baik dari perintah loop maupun switch statement jika sebuah kondisi sudah terpenuhi.
+  ```HTML
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Loops</h2>
+
+<p>A loop with a <b>break</b> statement.</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "";
+for (let i = 0; i < 10; i++) {
+  if (i === 3) { break; }
+  text += "The number is " + i + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+```
